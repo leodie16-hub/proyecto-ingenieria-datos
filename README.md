@@ -1,5 +1,21 @@
-# proyecto-ingenieria-datos
-Este proyecto ingesta información de un dataset público, transforma la informacion y crea una tabla de análisis con la data lista para ser consumida por equipos de análitica
+# Proyect-data-engineer
+
+Alcance del proyecto:
+
+Se propone lograr responder a la siguiente pregunta:
+¿Cuál es el top de las 5 ciudades de Estados Unidos que sufrieron más casos de accidentalidad entre los años 2016 y 2023?
+
+Para responder la pregunta anterior, se trabajó con las siguientes fuentes de información: 
+* La data se tomó de la base de datos pública Kaggle. (https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents?resource=download&select=US_Accidents_March23.csv)
+* La tabla paramétrica se tomó de: (https://docs.google.com/spreadsheets/d/14wvnQygIX1eCVo7H5B7a96W1v5VCg6Q9yeRoESF6epw/edit?gid=0#gid=0)
+
+El caso de uso final es crear una tabla de análisis que contenga el top de las 5 ciudades de Estados Unidos con más casos de accidentes entre 2016 y 2023.
+El entorno de nube seleccionado fue AWS. A continuación se muestra un diagrama del proceso ETL
+
+
+
+![arquitectura](https://github.com/user-attachments/assets/09e98777-a6f9-4ed8-9813-c261b3a026d7)
+
 
 Etapa de extracción (Extract)
 
